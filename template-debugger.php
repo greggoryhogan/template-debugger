@@ -22,7 +22,7 @@ class TemplateDebugger {
 	}
 
     /**
-     * Add actions for course record
+     * Add actions for plugin
      * 
      * @return void
      */
@@ -31,7 +31,7 @@ class TemplateDebugger {
     }
 
      /**
-     * Pull metadata from course record
+     * Pull template data for output
      */
     public function get_template_data() {
         $template_data = '';
